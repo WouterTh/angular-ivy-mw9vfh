@@ -1,16 +1,15 @@
 <div>
-  <mat-form-field appearance="outline">
-    <mat-label>Timeout</mat-label>
-    <input matInput numberInput [formControl]="timeOutCtrl">
-  </mat-form-field>
+    <label>Timeout</label>
+    <div>
+    <input numberInput [formControl]="timeOutCtrl">
+    </div>
   <p>Timeout value: {{timeOut}}
   </div>
   <div>
-    <mat-form-field appearance="outline">
-      <mat-label>Test number</mat-label>
-      <input matInput numberInput [formControl]="displayCtrl">
-    </mat-form-field>
+      <label>Test number</label>
+      <div>
+      <input numberInput [formControl]="displayCtrl">
+      </div>
     <p>Display control value: {{displayCtrl.value}}</p>
     <p>Actual control value: {{ctrl.value}}</p>
   </div>
-  
