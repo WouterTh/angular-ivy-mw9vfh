@@ -81,5 +81,4 @@ export class AppComponent implements OnInit, OnDestroy {
 
   private readonly toDisplay = (value: number): string =>
     value.toFixed(2).replace('.', ',');
-
 }
